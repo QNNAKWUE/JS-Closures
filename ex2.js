@@ -1,4 +1,3 @@
-
 function firstName (firstName) {
   var nameIntro = "My name is ";
   // this is an inner function which as we will get to see, has access to the outer function's variables
@@ -15,5 +14,5 @@ var fullName = firstName("Queen");
 
 fullName ("Nnakwue");  // My name is Queen Nnakwue
 
-// The closure (lastName) is called after the outer function has returned above
-// Yet, the closure still has access to the outer function's //variables and parameter
+// The closure "lastName" is called after the outer function has returned above
+// and still has access to the outer function's //variables and parameter
